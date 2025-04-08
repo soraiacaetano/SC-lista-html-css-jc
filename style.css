@@ -1,0 +1,22 @@
+body{
+    background-color: #ddeef4;
+    margin: 0;
+    padding: 20px;
+    color: black;
+}
+
+h1{
+    color: blue;
+    text-align: center;
+    margin-bottom: 10px;
+}
+h4{
+    color: black;
+}
+
+.classes{
+    display: flex;
+    flex-wrap:wrap ;
+    gap: 20px;
+    justify-content: space-between;
+}
