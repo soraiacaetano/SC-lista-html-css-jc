@@ -14,7 +14,7 @@ h4{
     color: black;
 }
 
-.classes{
+.galeria{
     display: flex;
     flex-wrap:wrap ;
     gap: 20px;
