@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Culinária de Francesa</title>
+    <style>
+        .categoria {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            flex-direction: row;
+            margin-bottom: 20px;
+            margin-top: 10px;
+        }
+
+        .prato {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            max-width: 200px;
+        }
+
+        .prato img {
+            width: 200px;
+            height: 200px;
+        }
+        table{
+            width: 100%;
+            border-collapse: collapse;
+            border-radius: 10px;
+        }
+        thead{
+            background-color: #e1e1e1;
+        }
+        th, td{
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+
+        footer{
+            padding: 20px;
+            text-align: center;
+            background-color: gray;
+            color: #fff;
+            width: 100%;
+        }
+
+        footer ul{
+            display: block;
+            list-style-type: none;
+            margin: 0;
+            padding-left: 0;
+            margin-bottom: 20px;
+        }
+        footer ul li{
+            display: inline;
+            margin-right: 20px;
+            font-size: 16px;
+            font-weight: bold;
+            text-decoration: none;
+            color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+    <h1><b style="color: rgb(119, 43, 226);">Blog da Culinária Francesa</b></h1>
+    <p>
+        Vamos conhecer um pouco da culinária francesa
+    </p>
+    <h2><b style="color: rgb(206, 143, 231);">Categoria de Receitas</b></h2>
+    <ul>
+        <li> <a>Salgado</a>
+            <div class="categoria">
+                <div class="prato">
+                    <img src="./Ratatouille.webp" alt="Ratatouille">
+                    <p> Ratatouille</p>
+                </div>
+
+                <div class="prato">
+                    <img src="./Quiche-lorraine.webp" alt="Quiche-lorraine">
+                    <p> Quiche-Lorraine</p>
+                </div>
+            </div>
+        </li>
+
+        <li><a>Doces</a>
+            <div class="categoria">
+                <div class="prato">
+                    <img src="./St. Honoré.jfif" alt="St.Honoré">
+                    <p>St.Honoré </p>
+                </div>
+                <div class="prato">
+                    <img src="./Mil Folhas.jfif" alt="Mil Folhas">
+                    <p>Mil Folhas </p>
+                </div>
+            </div>
+        </li>
+  
+        <li><a> Pratos Principais</a>
+            <div class="categoria">
+                <div class="prato">
+                    <img src="./Boeuf Bourguignon.jfif" alt="Boeuf Bourguignon">
+                    <p>Boeuf Bourguignon </p>
+                </div>
+                <div class="prato">
+                    <img src="./Coq Au Vin.jfif" alt="Coq Au Vin">
+                    <p> Coq Au Vin</p>
+                </div>
+            </div>
+        </li>
+        
+        <li><a>Pratos Gourmet</a>
+            <div class="categoria">
+                <div class="prato">
+                    <img src="./Escargots.jfif" alt="Escargots">
+                    <p> Escargots</p>
+                </div>
+                <div class="prato">
+                    <img src="./Tarte Tatin.jfif" alt="Tarte tatin">
+                    <p>Tarte tatin </p>
+                </div>
+            </div>
+        </li>
+        
+        <li><a>Pratos Especiais</a>
+            <div class="categoria">
+                <div class="prato">
+                    <img src="./Steak tartare.webp" alt="Steak tartare">
+                    <p> Steak Tartare</p>
+                </div>
+                <div class="prato">
+                    <img src="./confit de Canard.jfif" alt="confit de Canard">
+                    <p>Confit de Canard </p>
+                </div>
+            </div>
+        </li>
+        
+    </ul>
+
+    <h1> Tabela de Receitas</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Receita</th>
+                <th>Dificuldade</th>
+                <th>Tempo de Preparo</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Tarte Tatin</td>
+                <td>Médio</td>
+                <td>2 horas</td>
+            </tr>
+            <tr>
+                <td>Escargots</td>
+                <td>Médio</td>
+                <td>10 minutos</td>
+            </tr>
+            <tr>
+                <td>Confit de Canard</td>
+                <td>Difícil</td>
+                <td>8 horas</td>
+            </tr>
+            
+        </tbody>
+    </table>
+    <footer>
+        Refências culinárias
+        <ul>
+            <li><a href="https://veja.abril.com.br/cultura/bons-restaurantes-franceses-em-belo-horizonte/"></a>
+            </li>
+        </ul>
+     </footer>
+</body>
+
+</html>
